@@ -66,7 +66,7 @@
 			$me.attr({
 				'id': id,
 				'role': 'region', // add role region to each panel
-                'aria-hidden': false, // mark all panels as hidden
+                'aria-hidden': true, // mark all panels as hidden
                 'tabindex': 0 // add panels into the tab order
 			});
 		}).hide();
